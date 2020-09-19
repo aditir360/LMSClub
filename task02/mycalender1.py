@@ -1,4 +1,4 @@
-#!/usr/bin/env pytho3
+#!/usr/bin/env python3
 
 # 
 # This is my program to make my own calendar.
