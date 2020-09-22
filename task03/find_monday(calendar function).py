@@ -25,3 +25,4 @@ def main():
     # This is where I call my function.
     print mycalendar.upper()
     # This is where I print my schedule in UPPERCASE.
+    
