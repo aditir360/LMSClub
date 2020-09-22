@@ -5,7 +5,7 @@
 #
 
 
-def find_monday(mycalender1):
+def find_monday_task03(mycalender1):
     mycalendar1 =  """Day               Time          Subject
                     Monday   9:10 AM - 10:15 AM      LA
                               10:35 AM - 11:40 AM     SS
@@ -21,7 +21,7 @@ def find_monday(mycalender1):
    # This is how the function will check if "Monday" is there in the schedule or not.
    return
 def main():
-    print find_monday()
+    print find_monday_task03()
     # This is where I call my function.
     print mycalendar.upper()
     # This is where I print my schedule in UPPERCASE.
