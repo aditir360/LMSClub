@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #
-# This is my code which includes a function that will check if in my schedule that there is a "Monday" in it.
+# This is my code which includes a function that will check if in my schedule that there is a "Monday" in it, and prints the schedule in uppercase.
 #
 
 
@@ -23,3 +23,5 @@ def find_monday(mycalender1):
 def main():
     print find_monday()
     # This is where I call my function.
+    print mycalendar.upper()
+    # This is where I print my schedule in UPPERCASE.
