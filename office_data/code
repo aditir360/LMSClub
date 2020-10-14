@@ -1,0 +1,53 @@
+#!usr/bin/env python
+
+#
+# Hi! Here you can find an example of a real life example, where in this code you can find and remove data from dictionaries, of employees in an office. 
+# But remember this is fake! This is just an example. :)
+#
+
+def main():
+    # Here is my data.
+    employee_1 = {'employee_name':'Aditi Sharma', 'home':'Orlando, US', 'pin':'34582'}
+    employee_2 = {'employee_name':'Sally Core', 'home':'Nevada, US', 'pin':'356678'}
+    employee_3 = {'employee_name':'Molly Dan', 'home':'Cupertino, CA', 'pin':'340911'}
+    employee_4 = {'employee_name':'Daniel Dek', 'home':'Oregon, US', 'pin':'348662'}
+    employee_5 = {'employee_name':'Aranda De', 'home':'Nevada, US', 'pin':'344762'}
+    employee_6 = {'employee_name':'Sarita Coll', 'home':'Sunnyvale, CA', 'pin':'321190'}
+    employee_7 = {'employee_name':'Bolhelm He', 'home':'San Ramon, CA', 'pin':'301296'}
+    employee_8 = {'employee_name':'Ella Mon', 'home':'Italy, US', 'pin':'384012'}
+    employee_9 = {'employee_name':'Dante Saw', 'home':'San Ramon, CA', 'pin':'395595'}
+    employee_10 = {'employee_name':'Arnav Mell', 'home':'San Jose, CA', 'pin':'303459'}
+    office_data = [employee_1, employee_2, employee_3, employee_4, employee_5, employee_6, employee_7, employee_8, employee_9, employee_10]
+    
+    # Here I ask if the person wants to see the data, and what the computer should respond due to the person's answer.
+    a = input("Hi, we have the data for our company. Would you like to see the data? Say yes, or no.")
+    if a == "yes":
+       print('This is our data, {}'.format(office_data))
+    else:
+        print("Thank you, and bye!")
+        
+    # Here I updated the data.    
+    del office_data[0]
+    del office_data[8]
+    
+    # Here I ask if the person wants to see the updated data, and what the computer should respond due to the person's answer.
+    b = input("Hi, just wanted to tell you but we have two people leaving our company, would you like to see the data? Say yes, or no.")
+    if b == "yes":
+       print('This is our updated data, {}'.format(office_data))
+    else:
+        print("Thank you, and bye!")
+
+    # Here I updated the data.    
+    office_data.append({'employee_name':'Aditi Sharma', 'home':'Orlando, US', 'pin':'34582'})
+    office_data.append({'employee_name':'Dante Saw', 'home':'San Ramon, CA', 'pin':'395595'})
+    
+    # Here I ask if the person wants to see the updated data, and what the computer should respond due to the person's answer.
+    c = input("Hi, just wanted to tell you but we have 2 people joining our company, would you like to see the data? Say yes, or no.")
+    if c == "yes":
+       print('This is our updated data, {}'.format(office_data))
+    else:
+        print("Thank you, and bye!")
+
+
+if __name__ == "__main__":
+   main()
