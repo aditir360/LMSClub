@@ -1,0 +1,19 @@
+/*
+
+This is some simple and RANDOM coding for (JS) Java Script. BTW, this is a multi - line comment.
+
+/*
+
+// This is some small code where I will print the name and the string "Hello" together. 
+name = "Sam";
+
+console.log("Hello " + name);  // printing name on the console
+
+// Here, I declare some variables but then I print them on the console log too. And remember, y and Y - both are considered different in JS.
+let y = "hi";
+let Y = 7;
+
+console.log(y); // hi
+console.log(Y); // 7
+
+//This is just one part - there will be more!
